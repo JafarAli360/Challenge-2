@@ -103,7 +103,7 @@ p {
 .owl-carousel .owl-nav:hover button.owl-next:hover,
 .owl-carousel .owl-nav:hover button.owl-prev:hover,
 .owl-carousel .owl-nav:hover button.owl-dot {
-  background-color: green;
+  background-color: #c4c4c4;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -124,12 +124,16 @@ p {
   margin-left: 47.5%;
   font-size: 30px;
   z-index: 1;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 .owl-nav .owl-next {
   top: calc(50% - 25px);
   right: 0;
   opacity: 1;
   font-size: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 .owl-dots {
   text-align: center;
@@ -140,9 +144,10 @@ p {
   border-radius: 10px;
   margin-left: 3px;
   margin-right: 3px;
-  outline: none;
+  outline: auto;
 }
 .owl-dots .owl-dot.active {
+  border-radius: 10px;
   background: #f44336 !important;
 }
 /* Carousel */
